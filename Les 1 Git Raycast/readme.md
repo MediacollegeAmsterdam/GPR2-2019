@@ -1,13 +1,15 @@
 # Git en Unity
 
 ## Git
-Git is een veelgebruikte Source Version control.
+Git is een veelgebruikte Source Version control. Het is een veelgebruikte software die je op verschillende platforms terug ziet. Git wordt gebruikt onder andere door Github en Gitlab. Github is de site/host van git die wij gaan gebruiken.
 
 ### Werken met Git
-* Git shell
+Werken met git kan je op verschillende manieren doen. Je kan gebruik maken van een GUI, maar ook gewoon van de *git shell*. Hieronder staan een aantal git GUIs die je kan gebruiken om de workflow makkelijker te maken.
 * Gitkraken
 * Sourcetree
 * GitExtensions
+Zoals je ziet staat 'Github for Windows' hier niet tussen. Dat komt omdat 'Github for Windows' fucking slecht is. Met andere Git GUIs kan je ook andere Git platforms gebruiken. Ook heeft 'Github for Windows' slechte ondersteuning voor branches, slechte error handling, en veel functionaliteit van Git zijn erg lastig te vinden.     
+Daarom raad ik aan om Git Kraken te gebruiken.
 
 ## Unity
 Unity is een populaire game engine.
@@ -25,7 +27,7 @@ Wat er uiteindelijk gebeurt is vergelijkbaar met als je een haakje of ';' vergee
 * Werk nooit met meerdere mensen in dezelfde scene.
 * Met mensen in dezelfde script werken kan wel, maar laat 1 persoon aan de main scene werken. De rest kan werken aan gameobjects, prefabs en scripts.
 
-## Library merge errors 
+## Probleem 2: Library merge errors 
 In de Library folder vind je heel veel bestanden en informatie die door Unity gegenereerd zijn die een heleboel instellingen bewaren van Unity. Ook staan hier de assets in die gecompiled zijn naar formats waarmee Unity makkelijker kan werken en rekenen. Op deze manier werkt Unity onder andere met gecompilde code, wat efficienter is.
 Dat is allemaal leuk en aardig, totdat je met andere mensen gaat samenwerken die bijvoorbeeld een andere compiler hebben (macbook) of andere .net framework of andere settings. Aangezien alles wat in de Library folder staat door Unity aangemaakt wordt, hoeft deze helemaal niet gedeelt te worden.
 
