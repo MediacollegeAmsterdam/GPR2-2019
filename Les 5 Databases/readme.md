@@ -17,7 +17,7 @@ INSERT INTO TD_Score(`name`, `score`) VALUES ('SILVAN', 23756756723);
     * Een SQL query uit kan voeren.
     * Waardes uit de URL
 
-## Stap 1: Aanmaken van database en table.
+## Stap 1: Aanmaken van database en table. 
 Log in op jouw ma-host account. Dat doe je via https://hosts.ma-cloud.nl
 ![alt text](https://raw.githubusercontent.com/MediacollegeAmsterdam/GPR2-2019/Les-5/Les%205%20Databases/images/db1.png)
 
@@ -63,8 +63,12 @@ INSERT INTO TD_Score(`name`, `score`) VALUES ('SILVAN', 23756756723);
 ```
 Voer deze query uit. Als het gelukt is, heb je nu items toe gevoegd aan de Array. Controlleer goed op spellingsfouten en of 'id' en 'time' goed ingesteld zijn.
 
-### Stap 2.2
-Je wilt niet dat de speler op z'n eigen (lokale) computer de database kan aanpassen. Je wilt altijd dat alle aanpassingen aan de databae uitgevoerd worden aan de kant van de server waar de database zelf op staat. 
+### Stap 2.2: PHP
+Je wilt niet dat de speler op z'n eigen (lokale) computer de database kan aanpassen. Je wilt altijd dat alle aanpassingen aan de database uitgevoerd worden aan de kant van de server waar de database zelf op staat. 
+
+### Stap 2.3: Unity
+Het PHP script kan je nu aanroepen vanuit Unity.
+https://docs.unity3d.com/ScriptReference/Networking.UnityWebRequest.Get.html
 
 # NodeJS TL;DR
 * Installeer NodeJS en ExpressJS
