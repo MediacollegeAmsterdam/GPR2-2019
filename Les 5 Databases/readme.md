@@ -1,5 +1,3 @@
-PHP Hello world
-
 # PHP TL;DR
 * Ga naar ma-hosts
 * Maak daar een nieuwe database aan
