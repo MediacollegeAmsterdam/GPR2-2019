@@ -16,7 +16,7 @@ INSERT INTO TD_Score(`name`, `score`) VALUES ('SILVAN', 23756756723);
     * Waardes uit de URL
 
 ## Stap 1: Aanmaken van database en table. 
-Log in op jouw ma-host account. Dat doe je via https://hosts.ma-cloud.nl
+Log in op jouw ma-host account. Dat doe je via https://hosts.ma-cloud.nl     
 ![alt text](https://raw.githubusercontent.com/MediacollegeAmsterdam/GPR2-2019/Les-5/Les%205%20Databases/images/db1.png)
 
 Klik op Databases    
@@ -32,7 +32,7 @@ De eerste stap is een nieuwe gebruiker toevoegen. Zorg ervoor dat je het wachtwo
 
 ![alt text](https://github.com/MediacollegeAmsterdam/GPR2-2019/blob/Les-5/Les%205%20Databases/images/%2011.40.14.png?raw=true)
 
-Open Webadmin en klik op 'Create Table'
+Open Webadmin en klik op 'Create Table'      
 ![alt text](https://github.com/MediacollegeAmsterdam/GPR2-2019/blob/Les-5/Les%205%20Databases/images/%2011.40.32.png?raw=true)
 
 Maak een table aan met de volgende columns:
@@ -40,7 +40,7 @@ Maak een table aan met de volgende columns:
 * name:VARCHAR(12)
 * score:INT
 * time:TIMESTAMP Default: CURRENT_TIME
-Elke table heeft een unieke ID nodig. Met A_I zet je deze op AUTO_INCREMENT, dat betekent dat deze automatisch iedere keer 1tje meer wordt.
+Elke table heeft een unieke ID nodig. Met A_I zet je deze op AUTO_INCREMENT, dat betekent dat deze automatisch iedere keer 1tje meer wordt.   
 ![alt text](https://github.com/MediacollegeAmsterdam/GPR2-2019/blob/Les-5/Les%205%20Databases/images/%2011.59.41.png?raw=true)
 
 ![alt text](https://raw.githubusercontent.com/MediacollegeAmsterdam/GPR2-2019/Les-5/Les%205%20Databases/images/%2012.00.00.png?raw=true)
@@ -52,7 +52,7 @@ Elke table heeft een unieke ID nodig. Met A_I zet je deze op AUTO_INCREMENT, dat
 ### Stap 2.1: Vullen met een SQL Query
 Een SQL Query is eigenlijk de basistaal van databases. Je kan er in een database alles mee doen. Wij gaan enkel INSERT gebruiken. 
 
-Open de table die je net hebt aangemaakt, en klik op de knop SQL.
+Open de table die je net hebt aangemaakt, en klik op de knop SQL.     
 ![alt text](https://raw.githubusercontent.com/MediacollegeAmsterdam/GPR2-2019/Les-5/Les%205%20Databases/images/sql/09.22.18.png?raw=true)
 
 ![alt text](https://github.com/MediacollegeAmsterdam/GPR2-2019/blob/Les-5/Les%205%20Databases/images/%2011.40.32.png?raw=true)
